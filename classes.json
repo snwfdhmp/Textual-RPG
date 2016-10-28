@@ -1,0 +1,40 @@
+/*
+	
+	Fichier de définition des différentes classes de personnages (et non des classes de développement C++)
+	Il est important que ce fichier soit rédigé avec grande rigueur, car il sera lu automatiquement
+		par un algorithme, et donc s'il y a une erreur ->>>> DEAD#$^dm@ FATAL ERROR SYSTEM
+	Feel free to add your classes
+
+	NOTES : user = utilisateur
+
+*/
+
+
+/*
+
+	La première classe a été réécrite et commentée pour vous expliquer comment fonctionne
+		un fichier JSON.
+
+{
+	"id":, // "bidule":"truc" définit la valeur truc au membre bidule (on parle de couple clé:valeur)
+	"nom":"Ratnik", //les virgules séparent les différentes clés
+	"description-courte":"Guerrier",
+	"description-longue":"Prend toujours une bière de trop, est favorable à l’inceste.",
+	"description-pouvoir":"Ce personnage n'a aucun pouvoir, néanmoins ses armes vous procureront des bonus ;-)",
+	"arme-predilection":["hache","epee","gourdin"], // Entre crochets et avec virgules, on peut faire un tableau
+	"notes-pour-les-dev":"Ajouter une version guerrière"
+}
+*/
+
+
+{
+	"id":1, // L'id représente la classe de manière rapide à l'intérieur du programme, il doit être différent pour chaque classe
+	"nom":"Ratnik", //Le nom de la classe tel qu'il sera affiché à l'user
+	"explication-nom":"Ratnik = guerrier en bosniaque", // Precision anecdotique, ne sera normalement pas précisée à l'user
+	"description-courte":"Guerrier", // Courte description (à afficher par exemple sous le nom de la classe)
+	"description-longue":"Prend toujours une bière de trop, est favorable à l’inceste.", // Description plus poussée (ajoutez de l'humour !)
+	"description-pouvoir":"Ce personnage n'a aucun pouvoir, néanmoins ses armes vous procureront des bonus ;-)", // Description (sérieuse) des "pouvoirs magiques" de cette classe.
+	// Note pour les pouvoirs : un magicien aura par exemple plusieurs pouvoirs, ici il faut juste les décrires pour l'user quand il choisira sa classe.
+	"arme-predilection":["hache","epee","gourdin"], // Il faut respecter les types d'armes qui sont dans le fichier types_armes.json
+	"notes-pour-les-dev":"Ajouter une version guerrière" //Si vous voulez addresser une note aux dev par exemple.
+}

@@ -1,0 +1,25 @@
+{
+	"id":1,
+	"nom-affiché":"Epée", //Tel qu'il sera affiché à l'user
+	"nom-code":"epee", //Le même sans majuscules ni accent, les espaces sont remplacés par des tirets '-'
+}
+{
+	"id":2,
+	"nom-affiché":"Arc", //Tel qu'il sera affiché à l'user
+	"nom-code":"arc", //Le même sans majuscules ni accent, les espaces sont remplacés par des tirets '-'
+}
+{
+	"id":3,
+	"nom-affiché":"Hache", //Tel qu'il sera affiché à l'user
+	"nom-code":"hache", //Le même sans majuscules ni accent, les espaces sont remplacés par des tirets '-'
+}
+{
+	"id":4,
+	"nom-affiché":"Gourdin", //Tel qu'il sera affiché à l'user
+	"nom-code":"gourdin", //Le même sans majuscules ni accent, les espaces sont remplacés par des tirets '-'
+}
+{
+	"id":5,
+	"nom-affiché":"Canne à pêche", //Tel qu'il sera affiché à l'user
+	"nom-code":"canne-a-peche", //Le même sans majuscules ni accent, les espaces sont remplacés par des tirets '-'
+}
