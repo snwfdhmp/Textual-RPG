@@ -26,7 +26,6 @@
 }
 */
 
-
 {
 	"id":1, // L'id représente la classe de manière rapide à l'intérieur du programme, il doit être différent pour chaque classe
 	"nom":"Ratnik", //Le nom de la classe tel qu'il sera affiché à l'user
