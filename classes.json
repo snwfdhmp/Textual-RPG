@@ -37,3 +37,34 @@
 	"arme-predilection":["hache","epee","gourdin"], // Il faut respecter les types d'armes qui sont dans le fichier types_armes.json
 	"notes-pour-les-dev":"Ajouter une version guerrière" //Si vous voulez addresser une note aux dev par exemple.
 }
+
+{ 
+	"id": 2,
+	"nom" : "Xiyal",
+	"explication-nom" :"Xiyal = Illusion en Kurde",
+	"description-courte": "Magicien"
+	"description-longue": "Personnage stratège. Dans une autre vie aurait pu être un politique ou journaliste a itele tellement il nous illusionne avec ses conneries.",
+	"description-pouvoir": ": possibilité de voler des points sors à ses adversaires, des points de vie…",
+	"arme-predilection": ["Gaz Paralysant", "Hypnose", "Cartes"]
+}
+
+{	
+	"id" : 3,
+	"nom" : "Etekir",
+	"explciation-nom" : "Etekir = Menstruation en Kazakh",
+	"description-courte": "Femme"
+	"description-longue": "la grosse salope du village, A friendzoner Ameziane..",
+	"description-pouvoir": "Plus ou moins insensibles à certaines attaques",
+	"arme-predilection": ["Fleches", "Arc"]
+	"note-pour-les-devs" "Mettre des gros boobs"
+}
+
+{
+	"id" : 4,
+	"nom" : "Barda",
+	"explciation-nom" : "Barda = oiseau en népalais",
+	"description-courte": "Maitre des elements"
+	"description-longue": "peut faire presque n’importe quoi en poterie, il fait les meilleurs barbecues ",
+	"description-pouvoir": "Peut se créer une protection et renvoyer l’attaque a l’adversaire",
+	"arme-predilection": ["Eau", "Terre", "Feu", "Air]
+}
